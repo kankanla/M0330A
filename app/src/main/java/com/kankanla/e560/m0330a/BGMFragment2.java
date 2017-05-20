@@ -38,8 +38,6 @@ public class BGMFragment2 extends Fragment implements ServiceConnection {
     private float volume_R = 0.3f;
     private SharedPreferences sharedPreferences;
 
-
-
     public BGMFragment2(Context context) {
         this.context = context;
         mediaPlayer = new MediaPlayer();

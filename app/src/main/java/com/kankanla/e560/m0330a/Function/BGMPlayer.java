@@ -53,7 +53,7 @@ public class BGMPlayer {
 
     public void BGMStop() {
         while (mediaPlayer.isPlaying()){
-            System.out.println("---------------------------------------------isPlaying-----------------------------------------------------------");
+            System.out.println("---------------------------isPlaying------------------------------");
             mediaPlayer.pause();
         }
     }
