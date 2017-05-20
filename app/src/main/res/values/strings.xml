@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">M0330A</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="BGMPlayer">▶</string>
+    <string name="BGMPause">一停</string>
+    <string name="BGMStop">停止</string>
+    <string name="BGMFolder">フォルダ</string>
+</resources>

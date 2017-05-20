@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_speaker"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpeakerFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sp_ACE"
+            android:text="ACEon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sp_ACE" />
+
+
+        <Button
+            android:id="@+id/sp_ACEoff"
+            android:text="ACEoff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sp_ACEoff" />
+
+        <Button
+            android:id="@+id/sp_stop"
+            android:text="SP_Stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sp_stop" />
+
+        <Button
+            android:id="@+id/sp_start"
+            android:text="SP_Start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sp_start" />
+
+
+    </LinearLayout>
+</FrameLayout>
