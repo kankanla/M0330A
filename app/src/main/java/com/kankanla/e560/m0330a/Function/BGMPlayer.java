@@ -29,6 +29,10 @@ public class BGMPlayer {
     private ArrayList<String> fileArray;
     private MediaPlayer mediaPlayer;
 
+    public void test(){
+
+    }
+
     public BGMPlayer(Context context, MediaPlayer mediaPlayer) {
         this.context = context;
         this.mediaPlayer = mediaPlayer;
